@@ -1,3 +1,21 @@
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+// li {
+//   list-style: none;
+// }
+
+
+
 header {
   max-width: 960px;
   display: flex;
@@ -6,4 +24,17 @@ header {
   height: 270px;
   margin: 0 auto;
   padding: 0 4%;
+    nav ul {
+      display: flex;
+      padding: 10px 0;
+        li {
+          font-size: 0.9rem;
+          margin-left: 30px;
+          list-style: none;
+            img.icon {
+              width: 20px;
+            }
+        }
+    }
 }
+
