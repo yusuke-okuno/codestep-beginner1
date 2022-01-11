@@ -86,4 +86,21 @@ header nav ul li img.icon {
 #about ul p {
   text-align: justify;
 }
+
+#works ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#works li {
+  width: 31%;
+  margin-bottom: 23px;
+}
 /*# sourceMappingURL=style.css.map */
