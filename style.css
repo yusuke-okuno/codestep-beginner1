@@ -46,6 +46,14 @@ header nav ul li {
   margin-left: 30px;
 }
 
+header nav ul li a {
+  color: #24292e;
+}
+
+header nav ul li a:hover {
+  opacity: 0.7;
+}
+
 header nav ul li img.icon {
   width: 20px;
 }
