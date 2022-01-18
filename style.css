@@ -181,4 +181,64 @@ footer {
   padding: 10px 20px;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin-bottom: 70px;
+  }
+  .sec-title {
+    margin-bottom: 40px;
+  }
+  header {
+    max-width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header nav ul li {
+    font-size: 0.8rem;
+    margin-left: 20px;
+  }
+  header nav ul li:first-child {
+    margin-left: 0;
+  }
+  #works ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #works ul li {
+    width: 100%;
+  }
+  #news dl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #news dl dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  #news dl dd {
+    width: 100%;
+    padding-top: 0;
+  }
+  #contact dl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact dl dt {
+    width: 100%;
+  }
+  #contact dl dd {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
